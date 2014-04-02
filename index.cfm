@@ -1,7 +1,7 @@
 ﻿<cfsetting enablecfoutputonly="true">
 
 <cfset requiredFieldsMeta = {}>
-<cfset requiredFieldsMeta.version = "0.4">
+<cfset requiredFieldsMeta.version = "0.5">
 
 <cfinclude template="stylesheets/style.cfm">
 

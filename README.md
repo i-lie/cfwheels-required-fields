@@ -2,24 +2,15 @@
 
 ## What is it?
 
+This is a forked of https://github.com/liquifusion/cfwheels-required-fields
+
 Use this plugin to append a marked up asterisk to the labels of required fields.
 It determines this by looking at validations set on the object form helpers' properties to determine whether or not validatesPresenceOf() is set (manually or automatically).
 
-## The Latest Version
+## History
 
-The latest version of this script can always be found at the
-Github project page which is located at
-https://github.com/liquifusion/cfwheels-required-fields
+### Version 0.6.1
 
-## Documentation
-
-Documentation on how to use this plug-in can be found at
-http://cfwheels.org/plugins/listing/63
-
-## Installation
-
-Copy this ZIP file into your CFWheels /plugins folder and then reload your application.
-
-## License
-
-None specified
+* Don't remove the required tag from input form since it is a valid attribute in HTML5
+* Add requiredFieldsContainerElement, requiredFieldsContainerClass and requiredFieldsIndicatorText arguments so any textField(), textFieldTag(), textAreaField(), etc can override the default setting
+Sometimes, there might be a need to not showing the required indicator text eventhough it is required.
