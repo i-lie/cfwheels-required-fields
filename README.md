@@ -9,6 +9,11 @@ It determines this by looking at validations set on the object form helpers' pro
 
 ## History
 
+### Version 0.6.3
+
+* Bug fix: requiredFieldsXXX arguments are added to input as attributes
+* Rename the requireFieldsXXX arguments to labelRequiredFieldsXXX
+
 ### Version 0.6.1
 
 * Don't remove the required tag from input form since it is a valid attribute in HTML5
